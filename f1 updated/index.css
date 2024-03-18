@@ -1,0 +1,544 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+  margin: 0; 
+  padding: 0;
+  box-sizing: border-box;
+  font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  color: #151515;
+}
+ body{
+background-color: #000000;
+color:#f9f9f9;
+}
+h1 {
+  font-family: "Kanit", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+a {
+  font-family: "Kanit", sans-serif;
+  font-weight: 400;
+  font-style: normal
+}
+p {
+  color: #f9f9f9;
+}
+/*header*/ 
+
+header {
+ 
+ top: 0;
+ z-index: 100;
+color: #f9f9f9;
+ padding: 10px 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 16vh;
+  background: transparent;
+  backdrop-filter: blur(10px);
+  box-shadow:0 0 5px #E10600 ;
+}
+.logo {
+  font-size: 3rem;
+  font-weight: bold;
+  }
+  .logo a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 4rem;
+    margin-left: 30px;
+  }
+  .logo a:hover{
+    color: #333;
+  }
+  nav {
+    display: flex;
+    align-items: center;
+   
+  }
+  nav ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 50px;
+  }
+  nav ul li {
+    margin-left: 20px;
+    list-style: none;
+  }
+
+  nav ul li a {
+    color: #f9f9f9;
+    text-decoration: none;
+    font-size: 19px;
+    font-weight: inherit;
+    background: transparent;
+    backdrop-filter: blur(10px);
+    margin: 6px;
+  }
+  #id1 {
+    color: #f9f9f9;
+    font-size: 19px;
+    font-weight: bold;
+    border: 1px solid #f9f9f9;
+height: 70em;
+width: 360em;
+    padding: 5px 5px 5px 5px;
+background-color: #E10600;
+  }
+  #id2 {
+    color: #f9f9f9;
+    background-color: #E10600;
+    border: 1px solid #f9f9f9;
+    font-weight: bold;
+    font-size: 19px;
+    height: 70em;
+    width: 360em;
+        padding: 5px 5px 5px 5px;
+  }
+  nav ul li a:hover {
+    color:#E10600;
+    cursor: pointer;
+        }
+        .section {
+          width: 100%;
+          height: 60vh;
+          box-shadow: 0 0 10px #151515;
+          box-sizing: border-box;
+        margin: 0;
+        }
+        .section .section-cards {
+          width: 100%;
+        }
+      .section  .section-tag h1 {
+          margin-left: 50px;
+         color: #E10600;
+          font-size: 5.4rem;
+          padding: 20px 10px;
+
+        }
+    
+        .section  .section-tag  p {
+          margin-left: 50px;
+          font-weight: 400;
+          color: #fff;
+        font-size: 1.2rem;
+        }
+        .section  .section-tag  p:hover {
+          color: #E10600;
+          cursor: pointer;
+        }
+        .section .section-image {
+          background-image: url("sec2.jpg");
+          height: 60vh;
+          width: 100%;
+          background-size: cover;
+          background-position: center;
+          border-image: fill 0 linear-gradient(#0001, #000);
+        }
+      .div {
+        font-size: 2.5rem;
+        font-family: "Titillium Web";
+        margin: 0;
+      }
+      .div h1 {
+        color: #f9f9f9;
+      }
+      .div-ban {
+        margin-top: 40px;
+        display: grid;
+        grid-template-columns: auto auto;
+        gap: 40px;
+        
+      }
+      .div-ban .div-card {
+        box-shadow: 0 0 10px #fff;
+        box-sizing: border-box;
+        width: 700px;
+        padding: 10px 15px;
+        margin-left: 20px;
+   }
+     .div-ban .div-tag {
+        margin-left: 30px;
+        font-size: 1.1rem;
+        margin-top: 30px;
+        padding: 20px 0;
+        color: #f9f9f9;
+      }
+     .div-card  .div-tag h2 {
+        color: #f9f9f9;
+      }
+      .div-ban .div-img {
+        padding: 10px 0;
+        cursor: pointer;
+      }
+      .div-ban p {
+        padding: 20px 0;
+      color: #f9f9f9;
+      }
+      .div-ban .div-img p:hover {
+        cursor: pointer;
+      }
+      .events .events-tag {
+        font-size: 2.5rem;
+        padding: 15px 10px;
+        color: #E10600;
+      }
+      
+      .omega {
+        margin-top: 40px;
+        display: grid;
+        grid-template-columns: auto auto;
+        gap: 90px;
+      align-items: center;
+        justify-content: center;
+          width: 100%;
+          margin: 0;
+      }
+     .omega .omega-card {
+      box-shadow: 0 0 10px #f9f9f9;
+      box-sizing: border-box;
+      width: 500px;
+      padding: 10px 15px;
+      margin-left: 20px;
+    background-color: #333;
+     }
+ 
+     .omega .omega-image {
+      padding: 20px 0;
+      margin-left: 30px;
+      margin-top: 20px;
+      
+     }
+     .omega .omega-tag  h3   {
+      font-size: 1.5rem;
+      padding: 10px 0;
+      color: #f9f9f9;
+     }
+     .omega .omega-tag p {
+      color: #f9f9f9;
+     }
+     .omega .omega-tag span {
+      font-size: 30px;
+      padding: 10px 0;
+      color: #f9f9f9;
+
+     }
+     .omega .omega-tag a {
+      font-size: 25px;
+      padding: 10px 0;
+      color: #fff;
+
+     }
+     .drive {
+      display: grid;
+     grid-template-columns: auto auto auto auto auto; 
+     gap: 40px;
+
+     }
+     .drivers h1  {
+    font-size: 4.6rem;
+    color: #f9f9f9;
+ 
+     }
+     .drivers-card {
+      border: 1px solid #E10600;
+        height: 360px;
+      width: 650px;
+   box-sizing: border-box;
+  margin-left: 30px;
+   border-left: 0px;
+   border-bottom: 0px;
+   padding: 20px 30px;
+   border-width: 06px;
+   border-radius: 20px;
+   margin-top: 30px;
+     }
+     .drivers-img {
+margin-top: 30px;
+margin-left: 10px;
+display: flex;
+flex-direction: row;
+border-image: fill 0 linear-gradient(#0001, #000);
+     }
+     .drivers-tag img {
+      border-radius: 10px;
+      float: left;
+      margin-right: 170px;
+    }
+    .drivers-tag {
+      margin-left: 30px;
+      
+    }
+  
+     .drivers-tag p {
+      font-size: 40px;
+      color: #f9f9f9;
+     }
+     .drivers-tag h5 {
+color: #f9f9f9;
+font-size: 20px;
+font-weight: 300;
+     }
+     .drivers-tag a {
+      font-size: 20px;
+      color: #f9f9f9;
+  border: 2px solid #E10600;
+height: 50px;
+width: auto;
+padding: 10px 10px 10px 10px;
+border-radius: 10px;
+     }
+  
+       .drivers-card1 {
+        border: 1px solid #E10600;
+          height: 360px;
+        width: 650px;
+     box-sizing: border-box;
+    margin-left: 30px;
+     border-left: 0px;
+     border-bottom: 0px;
+     padding: 20px 30px;
+     border-width: 06px;
+     border-radius: 20px;
+     margin-top: 75px;
+       }
+       .drivers-img1 {
+  margin-top: 30px;
+  margin-left: 10px;
+  display: flex;
+  flex-direction: row;
+  border-image: fill 0 linear-gradient(#0001, #000);
+       }
+       .drivers-tag img1 {
+    border-radius: 10px;
+        float: left;
+        margin-right: 170px;
+      }
+      .drivers-tag1 {
+        margin-left: 30px;
+        
+      }
+    
+       .drivers-tag1 p {
+        font-size: 40px;
+        color: #f9f9f9;
+       }
+       .drivers-tag1 h5 {
+  color: #f9f9f9;
+  font-size: 20px;
+  font-weight: 300;
+       }
+       .drivers-tag1 a {
+        font-size: 20px;
+        color: #f9f9f9;
+    border: 2px solid #E10600;
+  height: 50px;
+  width: auto;
+  padding: 10px 10px 10px 10px;
+  border-radius: 10px;
+       }
+       .drivers-card2 {
+        border: 1px solid #E10600;
+          height: 360px;
+        width: 650px;
+     box-sizing: border-box;
+    margin-left: 30px;
+     border-left: 0px;
+     border-bottom: 0px;
+     padding: 20px 30px;
+     border-width: 06px;
+     border-radius: 20px;
+     margin-top: 110px;
+       }
+       .drivers-img2 {
+  margin-top: 30px;
+  margin-left: 30px;
+  display: flex;
+  flex-direction: row;
+  border-image: fill 0 linear-gradient(#0001, #000);
+       }
+       .drivers-tag img2 {
+        border-radius: 10px;
+        float: left;
+        margin-right: 170px;
+      }
+      .drivers-tag2 {
+        margin-left: 30px;
+        
+      }
+    
+       .drivers-tag2 p {
+        font-size: 40px;
+        color: #f9f9f9;
+       }
+       .drivers-tag2 h5 {
+  color: #f9f9f9;
+  font-size: 20px;
+  font-weight: 300;
+       }
+       .drivers-tag2 a {
+        font-size: 20px;
+        color: #f9f9f9;
+    border: 2px solid #E10600;
+  height: 50px;
+  width: auto;
+  padding: 10px 10px 10px 10px;
+  border-radius: 10px;
+       }
+       .drivers-card3 {
+        border: 1px solid #E10600;
+          height: 360px;
+        width: 650px;
+     box-sizing: border-box;
+    margin-left: 30px;
+     border-left: 0px;
+     border-bottom: 0px;
+     padding: 20px 30px;
+     border-width: 06px;
+     border-radius: 20px;
+     margin-top: 110px;
+       }
+       .drivers-img3 {
+  margin-top: 30px;
+  margin-left: 10px;
+  display: flex;
+  flex-direction: row;
+       }
+       .drivers-tag img3 {
+        border-radius: 10px;
+        float: left;
+        margin-right: 170px;
+      }
+      .drivers-tag3 {
+        margin-left: 30px;
+        
+      }
+    
+       .drivers-tag3 p {
+        font-size: 40px;
+        color: #f9f9f9;
+       }
+       .drivers-tag3 h5 {
+  color: #f9f9f9;
+  font-size: 20px;
+  font-weight: 300;
+       }
+       .drivers-tag3 a {
+        font-size: 20px;
+        color: #f9f9f9;
+    border: 2px solid #E10600;
+  height: 50px;
+  width: auto;
+  padding: 10px 10px 10px 10px;
+  border-radius: 10px;
+       }
+       #text {
+        color: #f9f9f9;
+        font-size: 1.5rem;
+
+       }
+       .contactus input {
+        height: 50px;
+        width: 500px;
+        box-sizing: border-box;
+        box-shadow: 0 0  10px #fff;
+       }
+      footer .foot {
+      margin-top: 50px;
+      background-color: #000000;
+      color: #fff;
+      display: grid;
+      grid-template-columns: auto auto auto auto;
+      gap: 10px;
+      border-image: fill 0 linear-gradient(#0001, #000);
+     }
+     .foot .foot-tag  {
+      margin-left: 30px;
+      padding: 10px 0;
+     }
+     .foot .foot-tag h2 {
+      font-size: 30px;
+      margin-top: 30px;
+      font-weight: 400;
+      color: #fff;
+     }
+     .foot .foot-tag h2:hover {
+      color: #E10600;
+      cursor: pointer;
+     }
+.foot .foot-tag p{
+    margin-top: 10px;
+    font-size: 18px;
+color: #fff;
+  }
+  .foot .foot-tag p:hover {
+    color: red;
+    cursor: pointer;
+  }
+footer {
+  background-color: #151515;
+  color: #fff;
+}
+.mini-footer {
+  padding: 20px 0;
+  font-size: 20px;
+  text-align: center;
+  background-color: #151515;
+  
+}
+.mini-footer:hover{
+  color: #E10600;
+}
+.mini-footer h4 {
+  color: #fff;
+}
+.mini-tags {
+  background-color: #000000;
+  color: #f9f9f9;
+}
+.mini-tags h5  {
+text-align: center;
+padding: 10px 0;
+color: #fff;
+}
+.fa-instagram {
+  margin: 5px;
+  padding: 10px;
+  color: #fff;
+}
+.fa-instagram:hover {
+  color: #E10600;
+  cursor: pointer;
+}
+.fa-github {
+  margin: 5px;
+  padding: 10px;
+  color: #fff;
+}
+.fa-github:hover {
+  color: #E10600;
+  cursor: pointer;
+}
+.fa-x-twitter {
+  margin: 5px;
+  padding: 10px;
+  color: #fff;
+}
+.fa-x-twitter:hover{
+  color: #E10600;
+  cursor: pointer;
+}
+
+.mini-icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.mini {
+  display: grid;
+  grid-template-columns: auto auto auto;
+}
+
